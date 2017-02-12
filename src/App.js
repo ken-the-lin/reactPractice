@@ -5,9 +5,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Button bsStyle='danger'>Go To Up</Button> 
+        <Button bsStyle='danger'>Go To Quote Simple</Button> 
         <br/>
-        <Button bsStyle='danger'>Go To Down</Button>
+        <Button bsStyle='danger'>Go To Quote With State</Button>        
+        <br/>
+        <Button bsStyle='danger'>Go To Quote With Firebase</Button>
       </div>
     );
   }
