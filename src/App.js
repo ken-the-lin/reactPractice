@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import { Button } from 'react-bootstrap';
+import { Link } from 'react-router';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Button bsStyle='danger'>Go To Quote Simple</Button> 
+        <Link className='btn btn-success' to='/quotes_simple'>Go To Quote Simple</Link> 
         <br/>
-        <Button bsStyle='danger'>Go To Quote With State</Button>        
+        <Link className='btn btn-primary' to='/quotes_with_state'>Go To Quote With State</Link>        
         <br/>
-        <Button bsStyle='danger'>Go To Quote With Firebase</Button>
+        <Link className='btn btn-warning' to='/quotes_with_firebase'>Go To Quote With Firebase</Link>
       </div>
     );
   }
